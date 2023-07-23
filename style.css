@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #f2f8f7;
+}
+
+main{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3em;
+    border-radius: 10px;
+    box-shadow: 7px 7px 33px #b5b8b733, -7px -7px 10px #feffff;
+}
+
+h1{
+    color: #0c0331;
+    font-family: monospace;
+    font-size: 24px;
+}
+.output{
+    box-shadow: 7px 7px 10px #b5b8b733, -4px -4px 7px #feffff;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 17px;
+}
+.configurations{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    color: #000000aa;
+    font-family: monospace;
+    font-size: 14px;
+}
+.input-control{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-self: stretch;
+}
+.password-length-input{
+    width: 50px;
+    border: 1px solid #00000044;
+    padding-left: 25px;
+}
+.password-length-input:focus{
+    outline: 1px solid #000000aa;
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 45%;
+    height: 30px;
+    cursor: pointer;
+    background: #f2f8f7;
+    border: none;
+    box-shadow: 7px 7px 10px #b5b8b733, -4px -4px 7px #feffff;
+    border-radius: 10px;
+    font-family: monospace;
+}
+.btn:active{
+    box-shadow: inset 7px 7px 10px #b5b8b733, inset -4px -4px 7px #feffff;
+}
